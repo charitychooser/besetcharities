@@ -128,13 +128,17 @@ a {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: white;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    color: #FFF;
+
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/hero5.jpg) no-repeat center right scroll;
     background-color: black;
+    max-height: 790px;
+    // max-width: 1800px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    margin: 0 auto;
     .intro-body {
         display: table-cell;
         vertical-align: middle;
@@ -156,6 +160,9 @@ a {
                 font-size: 26px;
             }
         }
+    }
+    @media(max-width:767px) {
+        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/mobile-hero.jpg) no-repeat top center scroll;
     }
 }
 
