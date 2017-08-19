@@ -251,7 +251,7 @@ a:focus {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/charitywater2.jpg) no-repeat top right scroll;
 }
 .download-section.eff {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/eff1.png) no-repeat top center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/eff1.png) no-repeat top center scroll;
 }
 #map {
   width: 100%;
